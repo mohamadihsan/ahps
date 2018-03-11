@@ -8,7 +8,7 @@
                 <i class="ti-search"></i>
             </a>
             <a href="index.html">
-                <img class="img-fluid" src="assets/images/logo.png" alt="Theme-Logo" />
+                <img class="img-fluid" src="{{ asset('assets/images/logo.png') }}" alt="Theme-Logo" />
             </a>
             <a class="mobile-options">
                 <i class="ti-more"></i>
@@ -101,19 +101,19 @@
                             <li class="col-sm-3">
                                 <h6 class="mega-menu-title">Gallery</h6>
                                 <div class="row m-b-20">
-                                    <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="assets/images/mega-menu/01.jpg" alt="Gallery-1">
+                                    <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="{{ asset('assets/images/mega-menu/01.jpg') }}" alt="Gallery-1">
                                     </div>
-                                    <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="assets/images/mega-menu/02.jpg" alt="Gallery-2">
+                                    <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="{{ asset('assets/images/mega-menu/02.jpg') }}" alt="Gallery-2">
                                     </div>
-                                    <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="assets/images/mega-menu/03.jpg" alt="Gallery-3">
+                                    <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="{{ asset('assets/images/mega-menu/03.jpg') }}" alt="Gallery-3">
                                     </div>
                                 </div>
                                 <div class="row m-b-20">
-                                    <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="assets/images/mega-menu/04.jpg" alt="Gallery-4">
+                                    <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="{{ asset('assets/images/mega-menu/04.jpg') }}" alt="Gallery-4">
                                     </div>
-                                    <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="assets/images/mega-menu/05.jpg" alt="Gallery-5">
+                                    <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="{{ asset('assets/images/mega-menu/05.jpg') }}" alt="Gallery-5">
                                     </div>
-                                    <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="assets/images/mega-menu/06.jpg" alt="Gallery-6">
+                                    <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="{{ asset('assets/images/mega-menu/06.jpg') }}" alt="Gallery-6">
                                     </div>
                                 </div>
                                 <button class="btn btn-primary btn-sm btn-block">Browse Gallery</button>
@@ -163,7 +163,7 @@
                             </li>
                             <li>
                                 <div class="media">
-                                    <img class="d-flex align-self-center" src="assets/images/user.png" alt="Generic placeholder image">
+                                    <img class="d-flex align-self-center" src="{{ asset('assets/images/user.png') }}" alt="Generic placeholder image">
                                     <div class="media-body">
                                         <h5 class="notification-user">Mohamad Ihsan</h5>
                                         <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -173,7 +173,7 @@
                             </li>
                             <li>
                                 <div class="media">
-                                    <img class="d-flex align-self-center" src="assets/images/user.png" alt="Generic placeholder image">
+                                    <img class="d-flex align-self-center" src="{{ asset('assets/images/user.png') }}" alt="Generic placeholder image">
                                     <div class="media-body">
                                         <h5 class="notification-user">Joseph William</h5>
                                         <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -183,7 +183,7 @@
                             </li>
                             <li>
                                 <div class="media">
-                                    <img class="d-flex align-self-center" src="assets/images/user.png" alt="Generic placeholder image">
+                                    <img class="d-flex align-self-center" src="{{ asset('assets/images/user.png') }}" alt="Generic placeholder image">
                                     <div class="media-body">
                                         <h5 class="notification-user">Sara Soudein</h5>
                                         <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -201,7 +201,7 @@
                     </li>
                     <li class="user-profile header-notification">
                         <a href="#!">
-                            <img src="assets/images/user.png" alt="User-Profile-Image">
+                            <img src="{{ asset('assets/images/user.png') }}" alt="User-Profile-Image">
                             <span>Mohamad Ihsan</span>
                             <i class="ti-angle-down"></i>
                         </a>
@@ -255,22 +255,22 @@
                         <div class="dummy-column">
                             <h2>Popular</h2>
                             <a class="dummy-media-object" href="#!">
-                                <img src="assets/images/avatar-1.png" alt="PagePreloadingEffect" />
+                                <img src="{{ asset('assets/images/avatar-1.png') }}" alt="PagePreloadingEffect" />
                                 <h3>Page Preloading Effect</h3>
                             </a>
                             <a class="dummy-media-object" href="#!">
-                                <img src="assets/images/avatar-1.png" alt="DraggableDualViewSlideshow" />
+                                <img src="{{ asset('assets/images/avatar-1.png') }}" alt="DraggableDualViewSlideshow" />
                                 <h3>Draggable Dual-View Slideshow</h3>
                             </a>
                         </div>
                         <div class="dummy-column">
                             <h2>Recent</h2>
                             <a class="dummy-media-object" href="#!">
-                                <img src="assets/images/avatar-1.png" alt="TooltipStylesInspiration" />
+                                <img src="{{ asset('assets/images/avatar-1.png') }}" alt="TooltipStylesInspiration" />
                                 <h3>Tooltip Styles Inspiration</h3>
                             </a>
                             <a class="dummy-media-object" href="#!">
-                                <img src="assets/images/avatar-1.png" alt="NotificationStyles" />
+                                <img src="{{ asset('assets/images/avatar-1.png') }}" alt="NotificationStyles" />
                                 <h3>Notification Styles Inspiration</h3>
                             </a>
                         </div>
