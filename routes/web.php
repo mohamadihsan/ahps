@@ -20,4 +20,10 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+Route::group(['prefix' => 'admin'], function() {
+    Route::get('/dashboard', 'DashboardController@dashboard_admin')->name('dashboard_admin');
+});
+
+Route::group(['prefix' => 'client'], function() {
+    Route::get('/dashboard', 'DashboardController@dashboard_client')->name('dashboard_client');
+});
