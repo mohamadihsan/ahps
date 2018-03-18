@@ -7,6 +7,7 @@
   	<meta name="description" content="#">
   	<meta name="keywords" content="AHPS, tenaga asing, jakarta, perizinan">
   	<meta name="author" content="Katapanda">
+  	<meta name="csrf-token" content="{{ csrf_token() }}">
 	
 	<title>AHPS | @yield('title')</title>
 
@@ -56,6 +57,9 @@
 
 	{{-- include script --}}
 	@include('includes.script')
+
+	{{-- add custom script --}}
+	@yield('script')
 
 </body>
 </html>

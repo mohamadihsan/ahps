@@ -22,8 +22,12 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix' => 'admin'], function() {
     Route::get('/dashboard', 'DashboardController@dashboard_admin')->name('dashboard_admin');
+    Route::resource('user_role', 'UserRoleController');
 });
 
 Route::group(['prefix' => 'client'], function() {
     Route::get('/dashboard', 'DashboardController@dashboard_client')->name('dashboard_client');
 });
+
+// api
+Route::get('api/user_role', 'UserRoleController@apiUserRole')->name('api.user_role');
